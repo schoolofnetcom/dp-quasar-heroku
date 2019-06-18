@@ -9,6 +9,9 @@
 
 <script>
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  mounted() {
+    this.$axios.get('/api/user');
+  },
 }
 </script>

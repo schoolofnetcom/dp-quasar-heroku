@@ -63,6 +63,9 @@ module.exports = function (ctx) {
       // analyze: true,
       // extractCSS: false,
       extendWebpack (cfg) {
+      },
+      env: {
+        HOST: JSON.stringify(process.env.HOST),
       }
     },
 
