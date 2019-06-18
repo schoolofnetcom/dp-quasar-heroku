@@ -13,10 +13,10 @@
         </q-btn>
 
         <q-toolbar-title>
-          Quasar App
+          DP - School of Net
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>Quasar com Heroku</div>
       </q-toolbar>
     </q-header>
 
